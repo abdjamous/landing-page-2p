@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-nav">
+        <div class="top-right-triangle"></div>
+        <div class="bottom-left-triangle"></div>
+        <nav class="navbar">
+          <div class="container">
+            <div class="social-media">
+              <a href="#"><img src="img\linkedin.svg" alt="LinkedIn" /></a>
+              <a href="#"><img src="img\x.svg" alt="X" /></a>
+              <a href="#"><img src="img\facebook.svg" alt="Facebook" /></a>
+            </div>
+            <ul class="menu">
+              <li><a href="#home">من نحن</a></li>
+              <li><a href="#about">قيمنا</a></li>
+              <li><a href="#numbers">الشركة</a></li>
+              <li><a href="#application">تواصل معنا</a></li>
+            </ul>
+            <div class="logo">
+              <img src="img\logo.svg" alt="Growink Logo" />
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="div-btn">
+      <span class="menu-btn" onclick="openNav()">&#9776;</span>
+    </div>
+    <aside id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;
+      </a>
+      <nav class="overlay-content">
+        <ul>
+          <li><a href="#home">من نحن</a></li>
+          <li><a href="#about">قيمنا</a></li>
+          <li><a href="#numbers">الشركة</a></li>
+          <li><a href="#application">تواصل معنا</a></li>
+        </ul>
+      </nav>
+    </aside>
+    <section class="home" id="home">
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/slider2.svg" alt="Slide 1" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/slider2.svg" alt="Slide 2" />
+          </div>
+          <div class="swiper-slide">
+            <img src="img/slider3.svg" alt="Slide 3" />
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h1>حول الشركة</h1>
+          <p>
+            انطلقت Growink في أوائل عام 2021 كمظلة لمشاريع التجارة الإلكترونية
+            التي تأسست من قبل 2P ابتداءً من عام 2016. تهدف الشركة إلى الاستثمار
+            والتوسع في مختلف القطاعات التجارية، وتسعى لتحقيق مزيد من النمو
+            والتوسع من خلال مبادرات ومشاريع متنوعة تستهدف العديد من الأسواق
+            المحلية والعالمية.
+          </p>
+        </div>
+        <div class="about-area">
+          <div class="about-message">
+            <div class="message-header">
+              <div class="icon"><img src="img/icon1.svg" alt="" /></div>
+              <div><h2>الرسالة</h2></div>
+            </div>
+            <p class="text-area">
+              التوسع الاستثماري في مختلف قطاعات التجارة، وتحقيق مزيد من النمو من
+              خلال مبادرات ومشاريع متنوعة تستهدف العديد من الأسواق المحلية
+              والعالمية
+            </p>
+          </div>
+          <div class="about-vision">
+            <div class="message-header">
+              <div class="icon"><img src="img/icon2.svg" alt="" /></div>
+              <div><h2>الرؤية</h2></div>
+            </div>
+            <p class="text-area">
+              نطمح لابتكار مشاريع تجارية ذات كفاءة عالية، متبعين أفضل نماذج
+              العمل نجاحاً
+            </p>
+          </div>
+        </div>
+        <h1>قيمنا</h1>
+        <div class="logos-cover">
+          <div class="top-right-shape"></div>
+          <div class="bottom-left-shape"></div>
+          <div class="logos">
+            <div class="one-logo">
+              <h2>الجودة</h2>
+              <img class="about-logo" src="img/logo1.svg" alt="" />
+            </div>
+            <div class="one-logo">
+              <h2>الثقة</h2>
+              <img class="about-logo" src="img/logo2.svg" alt="" />
+            </div>
+            <div class="one-logo">
+              <h2>الكفاءة</h2>
+              <img class="about-logo" src="img/logo3.svg" alt="" />
+            </div>
+            <div class="one-logo">
+              <h2>الريادة</h2>
+              <img class="about-logo" src="img/logo4.svg" alt="" />
+            </div>
+            <div class="one-logo">
+              <h2>الإبداع</h2>
+              <img class="about-logo" src="img/logo5.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="numbers" id="numbers">
+      <div class="numbers-area">
+        <h1>الشركة في أرقام</h1>
+        <div class="numbers-cover">
+          <div class="numbers-top-right-shape"></div>
+          <div class="numbers-bottom-left-shape"></div>
+          <div class="numbers-container">
+            <div class="numbers-item1">
+              <div class="count-text1">
+                <div class="counter1">+60,000</div>
+                <div class="text1">عميل سعيد</div>
+              </div>
+              <div class="image1"><img src="img/icon3.svg" alt="" /></div>
+            </div>
+            <div class="numbers-item2">
+              <div class="count-text1">
+                <div class="counter1">+2000</div>
+                <div class="text1">
+                  منتج عالي <br />
+                  الجودة
+                </div>
+              </div>
+              <div class="image1"><img src="img/icon4.svg" alt="" /></div>
+            </div>
+            <div class="numbers-item3">
+              <div class="image1"><img src="img/icon5.svg" alt="" /></div>
+              <div class="counter3">8</div>
+              <div class="text3">
+                مستودعات <br />
+                محليّة للتوصيل <br />
+                السريع
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="application" id="application">
+      <div class="application-cover">
+        <div class="application-top-right-shape"></div>
+        <div class="application-bottom-left-shape"></div>
+        <div class="application-container">
+          <div class="area1">
+            <div>
+              <label for="name">
+                الاسم الكامل
+                <span>(ضروري)</span>
+              </label>
+              <div class="input-area">
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="أحمد سنبل"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="phone">
+                رقم الجوّال
+                <span>(ضروري)</span>
+              </label>
+              <div class="input-area">
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="+967 58 987 8789"
+                />
+              </div>
+            </div>
+            <div>
+              <label for="email">
+                البريد الإلكتروني
+                <span>(ضروري)</span>
+              </label>
+              <div class="input-area">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="example@gmail.com"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="area2">
+            <label for="phone">
+              نصّ الرسالة
+              <span>(ضروري)</span>
+            </label>
+            <div class="input-area">
+              <textarea
+                name="text"
+                id="text"
+                rows="10"
+                placeholder="اكتب لنا ما الذي تتوقعه من فريق Growink"
+              ></textarea>
+            </div>
+          </div>
+          <div class="area3">
+            <input type="submit" value="إرسال" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="line"></div>
+      <div class="footer-text">صنع بإخلاص بواسطة فريق 2P ♥</div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
