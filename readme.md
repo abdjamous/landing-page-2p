@@ -34,6 +34,3 @@ After setting up the project, you can open the `index.html` file in your web bro
 
 This project is licensed under the MIT License.
 
-## Contact Information
-
-For any questions or support, please contact [your contact information].
